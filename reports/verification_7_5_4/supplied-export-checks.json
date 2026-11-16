@@ -1,0 +1,35 @@
+[
+  {
+    "part": "Non Calculator",
+    "students": 17,
+    "distinct_items": 30,
+    "assigned_per_student": 12,
+    "graded_responses": 204,
+    "excluded_not_included": 306,
+    "metadata_matched": 30,
+    "all_percentages_match_canvas": true,
+    "all_students_complete": true,
+    "reimport_preserves_scores": true,
+    "metadata_warnings": 0
+  },
+  {
+    "part": "Calculator",
+    "students": 17,
+    "distinct_items": 27,
+    "assigned_per_student": 4,
+    "graded_responses": 68,
+    "excluded_not_included": 391,
+    "metadata_matched": 27,
+    "all_percentages_match_canvas": true,
+    "all_students_complete": true,
+    "reimport_preserves_scores": true,
+    "metadata_warnings": 0
+  },
+  {
+    "combined_students": 17,
+    "distinct_items": 57,
+    "assigned_per_student": 16,
+    "graded_responses": 272,
+    "all_percentages_match_sum_of_canvas_parts": true
+  }
+]

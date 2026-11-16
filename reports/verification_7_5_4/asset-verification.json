@@ -1,0 +1,16 @@
+{
+  "version": "7.5.4",
+  "source_commit": "6fdd16cc09b56e9fe6d3863b5b3aecf095c8aca6",
+  "windows_run": 43915063428,
+  "manifest_signature_verified": true,
+  "files": {
+    "ClassroomStudio-Setup-7.5.4.exe": {
+      "bytes": 63262242,
+      "sha256": "757c6350315b9c23d1512be95104a0b1788152b680029432ea99b7be0fe1f904"
+    },
+    "update.json": {
+      "bytes": 20878,
+      "sha256": "7e675f7f9d90e6056b93feefe4de6fc2b28f2b83c87144bf39ea0c212231f60f"
+    }
+  }
+}

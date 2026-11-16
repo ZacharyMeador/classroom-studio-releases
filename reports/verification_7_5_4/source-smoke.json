@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "stage": "finished",
+  "feature_defaults": {
+    "new_install_starts_with_visible_streamlined_features": true,
+    "version_and_active_experience_are_visible": true,
+    "new_analysis_selector_is_enabled_without_opt_in": true,
+    "one_click_revert_keeps_classic_after_reinitialization": true,
+    "individual_choices_persist_with_automatic_adoption_on": true,
+    "latest_classic_and_undo_controls_work": true
+  },
+  "import_review": {
+    "scales": [
+      100,
+      125,
+      150
+    ],
+    "footer_visible": true,
+    "apply_persists_grades": true,
+    "conflict_choices": true,
+    "cancel_unchanged": true,
+    "blank_scores_preserved": true
+  },
+  "dialog_scale": 1.5,
+  "shared_dialogs": {
+    "shared_dialogs_at_100_125_150_percent": true,
+    "form_and_roster_save": true,
+    "review_apply_and_cancel": true,
+    "report_close_cleanup": true,
+    "already_visible_modal": true,
+    "delayed_dialog_callbacks_cancelled": true,
+    "dialog_construction_preserves_pending_events": true
+  },
+  "appearance": {
+    "theme_transitions": 8,
+    "custom_accents": 3,
+    "buttons_checked": 4570,
+    "minimum_contrast": 4.5,
+    "gradebook_tab_states_checked": 12,
+    "tab_selectors_included": true
+  },
+  "experience": {
+    "quick_class_and_shared_roster": true,
+    "new_assignment_and_score_persist": true,
+    "analysis_has_assignment_selection": true,
+    "student_summary_and_full_record": true,
+    "general_assessment_hides_ap_fields": true,
+    "classic_and_individual_features_preserve_scores": true,
+    "invalid_edit_blocks_feature_switch": true,
+    "appearance_and_scaling_roundtrip": true,
+    "empty_analysis_clears_old_statistics": true
+  },
+  "attendance_roster": {
+    "add_student_resorts_views_and_saved_roster_without_moving_scores": true,
+    "button_cycles_and_keeps_note_and_selection": true,
+    "status_click_and_keyboard_save_immediately": true,
+    "save_failure_does_not_change_displayed_status": true,
+    "inactive_mode_and_multiselect_do_not_change_records": true,
+    "leaving_attendance_stops_click_mode": true,
+    "invalid_date_and_class_change_are_safe_and_records_reload": true,
+    "attendance_controls_fit_at_100_125_150_percent": true
+  },
+  "scrolling": {
+    "student_list_stops_at_first_and_last_name": true,
+    "attendance_list_stops_at_first_and_last_name": true,
+    "gradebook_names_and_scores_stay_aligned_at_boundaries": true,
+    "wheel_events_preserve_saved_grades": true,
+    "native_name_popdowns_at_100_125_150_percent": true,
+    "scrollable_panels_stop_at_both_boundaries": true,
+    "closed_panels_release_only_their_own_bindings": true,
+    "no_wheel_callback_errors": true
+  },
+  "randomized_assessments": {
+    "student_analysis_button_imports_status": true,
+    "metadata_button_confirms_points": true,
+    "student_and_question_editors_exclude_unassigned": true,
+    "unanswered_is_zero": true,
+    "analysis_and_publish_use_assigned_counts": true,
+    "preimport_backup_is_compatible": true,
+    "unsafe_old_version_rollback_blocked": true
+  },
+  "version": "7.5.4",
+  "empty_workspace": true,
+  "update_view": true,
+  "populated_workspace": {
+    "populated_main_views": true,
+    "report_previews": true,
+    "reteaching_and_class_editor_at_100_125_150_percent": true,
+    "backup_restore_live_panels": true
+  },
+  "assessment_workflow": {
+    "blank_exam_structure": true,
+    "manual_mcq_scoring": true,
+    "maxima_review_at_100_125_150_percent": true,
+    "practice_settings": true,
+    "incomplete_estimate_withheld": true
+  },
+  "standards_workflow": {
+    "selector_search_100_125_150_percent": true,
+    "new_sol_assessment": true,
+    "reference_picker": true,
+    "course_points_charts": true,
+    "change_preserves_scores": true,
+    "imported_reference": true
+  },
+  "audit_fixes": {
+    "imports_preserve_scores_in_both_editor_modes": true,
+    "precision_and_conflicting_edit_protection": true,
+    "unedited_frq_precision_preserved": true,
+    "active_assessment_roster_refreshes": true,
+    "hall_export_identity_survives_reordering": true,
+    "seating_search_responsive_and_cancellable": true,
+    "stale_search_result_discarded": true,
+    "cancelled_class_deletion_preserves_records": true,
+    "delete_active_class_without_orphans": true,
+    "delete_last_class_and_navigate": true
+  },
+  "callback_errors": []
+}

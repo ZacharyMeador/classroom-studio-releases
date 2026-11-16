@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "stage": "finished",
+  "import_review": {
+    "scales": [
+      100,
+      125,
+      150
+    ],
+    "footer_visible": true,
+    "apply_persists_grades": true,
+    "conflict_choices": true,
+    "cancel_unchanged": true,
+    "blank_scores_preserved": true
+  },
+  "dialog_scale": 1.5,
+  "shared_dialogs": {
+    "shared_dialogs_at_100_125_150_percent": true,
+    "form_and_roster_save": true,
+    "review_apply_and_cancel": true,
+    "report_close_cleanup": true,
+    "already_visible_modal": true
+  },
+  "appearance": {
+    "theme_transitions": 8,
+    "custom_accents": 3,
+    "buttons_checked": 3972,
+    "minimum_contrast": 4.5,
+    "gradebook_tab_states_checked": 12,
+    "tab_selectors_included": true
+  },
+  "version": "7.4.2",
+  "empty_workspace": true,
+  "update_view": true,
+  "populated_workspace": {
+    "populated_main_views": true,
+    "report_previews": true,
+    "reteaching_and_class_editor_at_100_125_150_percent": true,
+    "backup_restore_live_panels": true
+  },
+  "assessment_workflow": {
+    "blank_exam_structure": true,
+    "manual_mcq_scoring": true,
+    "maxima_review_at_100_125_150_percent": true,
+    "practice_settings": true,
+    "incomplete_estimate_withheld": true
+  },
+  "standards_workflow": {
+    "selector_search_100_125_150_percent": true,
+    "new_sol_assessment": true,
+    "reference_picker": true,
+    "course_points_charts": true,
+    "change_preserves_scores": true,
+    "imported_reference": true
+  },
+  "audit_fixes": {
+    "imports_preserve_scores_in_both_editor_modes": true,
+    "precision_and_conflicting_edit_protection": true,
+    "unedited_frq_precision_preserved": true,
+    "active_assessment_roster_refreshes": true,
+    "hall_export_identity_survives_reordering": true,
+    "seating_search_responsive_and_cancellable": true,
+    "stale_search_result_discarded": true,
+    "cancelled_class_deletion_preserves_records": true,
+    "delete_active_class_without_orphans": true,
+    "delete_last_class_and_navigate": true
+  },
+  "callback_errors": []
+}

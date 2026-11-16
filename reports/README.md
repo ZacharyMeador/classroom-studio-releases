@@ -1,5 +1,7 @@
 # Reports
 
+- [7.5.3 mouse-wheel scrolling fix and verification](Classroom_Studio_7_5_3_Scrolling_Fix.md)
+
 - [7.5.2 automatic interface features and revert](Classroom_Studio_7_5_2_Automatic_Features.md)
 - [Source reports and verification evidence](https://github.com/ZacharyMeador/classroom-studio/tree/main/reports)
 - [Original 7.4.0 comprehensive audit](Classroom_Studio_7_4_0_Comprehensive_Audit.pdf)

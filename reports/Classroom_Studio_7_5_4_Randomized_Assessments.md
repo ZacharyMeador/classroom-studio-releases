@@ -64,3 +64,7 @@ The installer and signed update manifest were independently checked against the 
 - `update.json` — 20,878 bytes; SHA-256 `7e675f7f9d90e6056b93feefe4de6fc2b28f2b83c87144bf39ea0c212231f60f`.
 
 Verification evidence is in [`verification_7_5_4`](verification_7_5_4). The supplied-export checks contain aggregate counts only.
+
+Published as the latest release: [Classroom Studio 7.5.4](https://github.com/ZacharyMeador/classroom-studio-releases/releases/tag/v7.5.4). Both uploaded asset digests match the independently verified build.
+
+![Published release and installer](verification_7_5_4/release-page.jpg)

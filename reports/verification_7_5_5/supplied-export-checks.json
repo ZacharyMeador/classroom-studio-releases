@@ -1,0 +1,36 @@
+{
+  "parts": [
+    {
+      "part": "Non Calculator",
+      "bank_items": 30,
+      "labels": [
+        "Q1",
+        "Q30"
+      ],
+      "students": 17,
+      "assigned_per_student": 12,
+      "graded_responses": 204
+    },
+    {
+      "part": "Calculator",
+      "bank_items": 27,
+      "labels": [
+        "Q31",
+        "Q57"
+      ],
+      "students": 17,
+      "assigned_per_student": 4,
+      "graded_responses": 68
+    }
+  ],
+  "question_first_and_later_scores_verified": true,
+  "four_report_batch_with_student_files_selected_first_verified": true,
+  "preview_does_not_modify_workspace": true,
+  "reimport_no_duplicate_items": true,
+  "combined_distinct_items": 57,
+  "combined_items_per_student": 16,
+  "combined_graded_responses": 272,
+  "all_percentages_match_canvas": true,
+  "all_students_complete": true,
+  "student_data_published": false
+}

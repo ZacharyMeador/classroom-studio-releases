@@ -1,0 +1,32 @@
+{
+  "version": "7.5.5",
+  "application_commit": "c4be95ff1f3745db55a763dded18ade8742854d4",
+  "windows_run": 44082684541,
+  "windows_artifact_sha256": "d6f99d45a7f0bff04ca9cae50e34846c929195e30b2fb5efaa8811ae1674f47c",
+  "installer_sha256": "edc9e60c60839ac29c831f6cb07771c7a834d0350029697e1e4e68c4c1e7268e",
+  "installer_size": 63284814,
+  "manifest_sha256": "33824160b5b398d381a1648d31322b101ce29e194fa3ac73b7e2dd3541a630a0",
+  "manifest_size": 20870,
+  "manifest_signature_verified": true,
+  "installer_verified_against_signed_manifest": true,
+  "portable_sha256": "a6b9c7bf8ad4b9a1f2ac40bc6b91f806fa7ea1ea65597bf5b6d829f826bba24f",
+  "portable_archive_integrity": true,
+  "portable_has_no_personal_files_or_signing_keys": true,
+  "native_reports": {
+    "install-smoke.json": {
+      "ok": true,
+      "version": "7.5.5",
+      "callback_errors": []
+    },
+    "reinstall-smoke.json": {
+      "ok": true,
+      "version": "7.5.5",
+      "callback_errors": []
+    },
+    "rollback-smoke.json": {
+      "ok": true,
+      "version": "7.4.2",
+      "callback_errors": []
+    }
+  }
+}

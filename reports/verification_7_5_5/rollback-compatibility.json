@@ -1,0 +1,8 @@
+{
+  "target_version": "7.5.4",
+  "compatibility_guard_accepts_new_imported_database": true,
+  "previous_reader_preserves_grades_assignment_counts_and_completion": true,
+  "previous_reader_graded_responses": 272,
+  "unsafe_7_5_3_rejected": true,
+  "student_data_published": false
+}

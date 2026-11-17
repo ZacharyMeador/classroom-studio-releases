@@ -1,0 +1,23 @@
+{
+  "version": "7.5.5",
+  "install": true,
+  "compiled_app_launch": true,
+  "reinstall": true,
+  "uninstall": true,
+  "existing_database_preserved": true,
+  "opt_in_workflow": true,
+  "automatic_features_and_revert": true,
+  "attendance_clicks_and_alphabetical_enrollment": true,
+  "mouse_wheel_boundaries_and_native_popdowns": true,
+  "signed_rollback_to_7_4_2": true,
+  "old_version_reads_new_records": true,
+  "rollback_backup_created": true,
+  "upgrade_after_rollback": true,
+  "import_review_at_100_125_150_percent": true,
+  "shared_dialogs_at_100_125_150_percent": true,
+  "populated_views_and_backup_restore": true,
+  "theme_transition_contrast": true,
+  "gradebook_tab_contrast": true,
+  "ap_assessment_workflow": true,
+  "standards_framework_workflow": true
+}

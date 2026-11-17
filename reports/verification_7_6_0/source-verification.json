@@ -1,0 +1,13 @@
+{
+  "version": "7.6.0",
+  "application_commit": "f267695a6b6777d6ae9e91f10c16677d50f930b0",
+  "source_run": 44132574210,
+  "source_artifact_id": 14351695538,
+  "source_artifact_sha256": "59d8977d0acd2b67d4367a0e0bd7259925a5bca9a2d9c152f1e904f7253e846a",
+  "tests_passed": 317,
+  "sqlite_handle_cleanup": true,
+  "source_gui_workflows_passed": true,
+  "new_assessment_gui_checks": 9,
+  "dependencies_audited": 27,
+  "known_vulnerabilities_found": 0
+}

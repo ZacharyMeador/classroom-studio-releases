@@ -1,0 +1,371 @@
+{
+  "files": {
+    "grid_data (9)(1).xlsx": {
+      "kind": "District questions",
+      "students": 0,
+      "items": 25,
+      "tracker_assessments": 0,
+      "warnings": 0
+    },
+    "Geometry Data Tracking 26-27.xlsx": {
+      "kind": "Tracker",
+      "students": 79,
+      "items": 0,
+      "tracker_assessments": 3,
+      "warnings": 0
+    },
+    "grid_data (8)(1).xlsx": {
+      "kind": "District results",
+      "students": 52,
+      "items": 0,
+      "tracker_assessments": 0,
+      "warnings": 0
+    },
+    "grid_data (7)(1).xlsx": {
+      "kind": "District questions",
+      "students": 0,
+      "items": 30,
+      "tracker_assessments": 0,
+      "warnings": 0
+    },
+    "grid_data (4)(1).xlsx": {
+      "kind": "District results",
+      "students": 23,
+      "items": 25,
+      "tracker_assessments": 0,
+      "warnings": 0
+    },
+    "grid_data(1).xlsx": {
+      "kind": "District results",
+      "students": 52,
+      "items": 25,
+      "tracker_assessments": 0,
+      "warnings": 1
+    },
+    "grid_data (6)(1).xlsx": {
+      "kind": "District results",
+      "students": 23,
+      "items": 0,
+      "tracker_assessments": 0,
+      "warnings": 0
+    },
+    "grid_data (5)(1).xlsx": {
+      "kind": "District questions",
+      "students": 0,
+      "items": 25,
+      "tracker_assessments": 0,
+      "warnings": 0
+    },
+    "grid_data (2)(1).xlsx": {
+      "kind": "District questions",
+      "students": 0,
+      "items": 25,
+      "tracker_assessments": 0,
+      "warnings": 0
+    }
+  },
+  "initial_destinations": [
+    {
+      "aid": 1,
+      "class_id": "P1",
+      "title": "Unit 2",
+      "form": "Regular",
+      "students": 29,
+      "scored": 28,
+      "items": 25
+    },
+    {
+      "aid": 2,
+      "class_id": "P3",
+      "title": "Unit 2",
+      "form": "Regular",
+      "students": 23,
+      "scored": 20,
+      "items": 25
+    },
+    {
+      "aid": 3,
+      "class_id": "P4",
+      "title": "Unit 2",
+      "form": "Honors",
+      "students": 23,
+      "scored": 23,
+      "items": 25
+    },
+    {
+      "aid": 4,
+      "class_id": "P4",
+      "title": "MP 1 Benchmark",
+      "form": "Honors",
+      "students": 23,
+      "scored": 23,
+      "items": 30
+    },
+    {
+      "aid": 5,
+      "class_id": "P1",
+      "title": "MP 1 Benchmark",
+      "form": "Regular",
+      "students": 29,
+      "scored": 22,
+      "items": 25
+    },
+    {
+      "aid": 6,
+      "class_id": "P3",
+      "title": "MP 1 Benchmark",
+      "form": "Regular",
+      "students": 23,
+      "scored": 20,
+      "items": 25
+    }
+  ],
+  "preview_read_only": true,
+  "initial_summary": [
+    {
+      "title": "Unit 2",
+      "class": "P1",
+      "form": "Regular",
+      "students": 29,
+      "scored": 28,
+      "missing": 1,
+      "mean": 48.0,
+      "median": 56.0,
+      "participation": 96.55172413793103,
+      "thresholds": {
+        "60": {
+          "count": 10,
+          "percent": 35.714285714285715
+        },
+        "70": {
+          "count": 2,
+          "percent": 7.142857142857143
+        },
+        "75": {
+          "count": 1,
+          "percent": 3.5714285714285716
+        }
+      },
+      "distribution": {
+        "0\u201359": 18,
+        "60\u201374": 9,
+        "75\u201383": 0,
+        "84\u201394": 0,
+        "95+": 1
+      },
+      "statuses": {
+        "Completed": 28,
+        "Not Started": 1
+      },
+      "response_scored": 672,
+      "response_slots": 725
+    },
+    {
+      "title": "Unit 2",
+      "class": "P3",
+      "form": "Regular",
+      "students": 23,
+      "scored": 20,
+      "missing": 3,
+      "mean": 49.6,
+      "median": 52.0,
+      "participation": 86.95652173913044,
+      "thresholds": {
+        "60": {
+          "count": 6,
+          "percent": 30.0
+        },
+        "70": {
+          "count": 1,
+          "percent": 5.0
+        },
+        "75": {
+          "count": 0,
+          "percent": 0.0
+        }
+      },
+      "distribution": {
+        "0\u201359": 14,
+        "60\u201374": 6,
+        "75\u201383": 0,
+        "84\u201394": 0,
+        "95+": 0
+      },
+      "statuses": {
+        "Completed": 20,
+        "Not Started": 3
+      },
+      "response_scored": 500,
+      "response_slots": 575
+    },
+    {
+      "title": "Unit 2",
+      "class": "P4",
+      "form": "Honors",
+      "students": 23,
+      "scored": 23,
+      "missing": 0,
+      "mean": 45.21739130434783,
+      "median": 44.0,
+      "participation": 100.0,
+      "thresholds": {
+        "60": {
+          "count": 5,
+          "percent": 21.73913043478261
+        },
+        "70": {
+          "count": 1,
+          "percent": 4.3478260869565215
+        },
+        "75": {
+          "count": 1,
+          "percent": 4.3478260869565215
+        }
+      },
+      "distribution": {
+        "0\u201359": 18,
+        "60\u201374": 4,
+        "75\u201383": 0,
+        "84\u201394": 1,
+        "95+": 0
+      },
+      "statuses": {
+        "Completed": 23
+      },
+      "response_scored": 575,
+      "response_slots": 575
+    },
+    {
+      "title": "MP 1 Benchmark",
+      "class": "P4",
+      "form": "Honors",
+      "students": 23,
+      "scored": 23,
+      "missing": 0,
+      "mean": 71.7395652173913,
+      "median": 73.33,
+      "participation": 100.0,
+      "thresholds": {
+        "60": {
+          "count": 21,
+          "percent": 91.30434782608695
+        },
+        "70": {
+          "count": 18,
+          "percent": 78.26086956521739
+        },
+        "75": {
+          "count": 11,
+          "percent": 47.82608695652174
+        }
+      },
+      "distribution": {
+        "0\u201359": 2,
+        "60\u201374": 10,
+        "75\u201383": 6,
+        "84\u201394": 5,
+        "95+": 0
+      },
+      "statuses": {
+        "Completed": 23
+      },
+      "response_scored": 0,
+      "response_slots": 0
+    },
+    {
+      "title": "MP 1 Benchmark",
+      "class": "P1",
+      "form": "Regular",
+      "students": 29,
+      "scored": 22,
+      "missing": 7,
+      "mean": 68.72727272727273,
+      "median": 74.0,
+      "participation": 75.86206896551724,
+      "thresholds": {
+        "60": {
+          "count": 17,
+          "percent": 77.27272727272727
+        },
+        "70": {
+          "count": 14,
+          "percent": 63.63636363636363
+        },
+        "75": {
+          "count": 11,
+          "percent": 50.0
+        }
+      },
+      "distribution": {
+        "0\u201359": 5,
+        "60\u201374": 6,
+        "75\u201383": 3,
+        "84\u201394": 7,
+        "95+": 1
+      },
+      "statuses": {
+        "Not Started": 6,
+        "Completed": 22,
+        "Started": 1
+      },
+      "response_scored": 0,
+      "response_slots": 0
+    },
+    {
+      "title": "MP 1 Benchmark",
+      "class": "P3",
+      "form": "Regular",
+      "students": 23,
+      "scored": 20,
+      "missing": 3,
+      "mean": 62.0,
+      "median": 68.0,
+      "participation": 86.95652173913044,
+      "thresholds": {
+        "60": {
+          "count": 13,
+          "percent": 65.0
+        },
+        "70": {
+          "count": 9,
+          "percent": 45.0
+        },
+        "75": {
+          "count": 9,
+          "percent": 45.0
+        }
+      },
+      "distribution": {
+        "0\u201359": 7,
+        "60\u201374": 4,
+        "75\u201383": 6,
+        "84\u201394": 2,
+        "95+": 1
+      },
+      "statuses": {
+        "Completed": 20,
+        "Not Started": 2,
+        "Started": 1
+      },
+      "response_scored": 0,
+      "response_slots": 0
+    }
+  ],
+  "benchmark_no_individual_standards": true,
+  "tracker_conflicts": {
+    "total": 22,
+    "score": 14,
+    "SWD": 6,
+    "ELL": 2
+  },
+  "tracker_destinations": 9,
+  "roster_counts_after_reviewed_additions": {
+    "P1": 32,
+    "P3": 28,
+    "P4": 23
+  },
+  "unmatched_names_remain_separate": true,
+  "precision_retained": true,
+  "source_files_unchanged": true,
+  "ok": true
+}

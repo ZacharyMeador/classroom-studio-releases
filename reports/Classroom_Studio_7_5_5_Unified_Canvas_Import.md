@@ -60,3 +60,7 @@ Downloaded release artifact integrity, update-manifest signature, installer chec
 ## Installation
 
 Download `ClassroomStudio-Setup-7.5.5.exe` from the signed-in GitHub release page, close Classroom Studio, and run Setup over the existing installed copy. Confirm 7.5.5 in the app after reopening. The private release channel requires a manual signed-in download; this publication does not update a teacher’s computer by itself.
+
+Published as the latest release on November 17, 2026: [Classroom Studio 7.5.5](https://github.com/ZacharyMeador/classroom-studio-releases/releases/tag/v7.5.5). GitHub’s uploaded asset sizes and SHA-256 digests match the independently verified local files. [Publication evidence](verification_7_5_5/publication.json).
+
+![Published release and installer](verification_7_5_5/release-page.jpg)

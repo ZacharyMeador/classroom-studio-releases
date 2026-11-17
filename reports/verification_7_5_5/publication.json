@@ -1,0 +1,31 @@
+{
+  "version": "7.5.5",
+  "release_id": 448571353,
+  "tag": "v7.5.5",
+  "url": "https://github.com/ZacharyMeador/classroom-studio-releases/releases/tag/v7.5.5",
+  "published_at": "2026-11-17T12:52:47Z",
+  "draft": false,
+  "prerelease": false,
+  "latest_verified": true,
+  "application_commit": "c4be95ff1f3745db55a763dded18ade8742854d4",
+  "windows_run": 44082684541,
+  "source_run": 44082684609,
+  "assets": [
+    {
+      "id": 759055859,
+      "name": "ClassroomStudio-Setup-7.5.5.exe",
+      "size": 63284814,
+      "digest": "sha256:edc9e60c60839ac29c831f6cb07771c7a834d0350029697e1e4e68c4c1e7268e",
+      "url": "https://github.com/ZacharyMeador/classroom-studio-releases/releases/download/v7.5.5/ClassroomStudio-Setup-7.5.5.exe",
+      "state": "uploaded"
+    },
+    {
+      "id": 759056050,
+      "name": "update.json",
+      "size": 20870,
+      "digest": "sha256:33824160b5b398d381a1648d31322b101ce29e194fa3ac73b7e2dd3541a630a0",
+      "url": "https://github.com/ZacharyMeador/classroom-studio-releases/releases/download/v7.5.5/update.json",
+      "state": "uploaded"
+    }
+  ]
+}

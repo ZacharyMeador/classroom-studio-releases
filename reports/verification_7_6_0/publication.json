@@ -1,0 +1,27 @@
+{
+  "version": "7.6.0",
+  "release_id": 448920674,
+  "tag": "v7.6.0",
+  "url": "https://github.com/ZacharyMeador/classroom-studio-releases/releases/tag/v7.6.0",
+  "published_at": "2026-11-17T17:35:15Z",
+  "draft": false,
+  "prerelease": false,
+  "application_commit": "f267695a6b6777d6ae9e91f10c16677d50f930b0",
+  "assets": [
+    {
+      "name": "ClassroomStudio-Setup-7.6.0.exe",
+      "sha256": "e5c79cdb9e4b12784aa2ff9c052786218066a3ea7625749e5aac8955b0326087",
+      "size": 63352273,
+      "url": "https://github.com/ZacharyMeador/classroom-studio-releases/releases/download/v7.6.0/ClassroomStudio-Setup-7.6.0.exe"
+    },
+    {
+      "name": "update.json",
+      "sha256": "c2851f45afd809db9f05cfd3d8ae06a1bf7afe7b3ef9efd2d9ca70a903c904fa",
+      "size": 20850,
+      "url": "https://github.com/ZacharyMeador/classroom-studio-releases/releases/download/v7.6.0/update.json"
+    }
+  ],
+  "downloaded_build_assets_match_published_assets": true,
+  "source_run": 44132574210,
+  "windows_run": 44132574358
+}

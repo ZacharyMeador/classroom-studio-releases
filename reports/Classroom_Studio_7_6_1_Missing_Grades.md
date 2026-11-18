@@ -19,7 +19,16 @@ A timing-sensitive reimport check exposed an unnecessary class-profile save. An 
 
 ## Verification
 
-325 unit/integration checks and static checks passed locally and in source CI. All source GUI workflows passed, including seven missing-grade/repair checks, with no callback errors. The dependency audit reported no known vulnerabilities in 27 packages. Native Windows installer verification is pending. Fixtures use fictional students only.
+325 unit/integration checks and static checks passed locally and in source CI. All source GUI workflows passed, including seven missing-grade/repair checks, with no callback errors. The dependency audit reported no known vulnerabilities in 27 packages. Fixtures use fictional students only.
+
+Native Windows installation and reinstallation passed all GUI workflows, including the seven missing-grade/repair checks, with no callback errors. Signed rollback to 7.6.0, upgrade after rollback, and uninstall with classroom-data preservation also passed. The downloaded build archive, installer checksum, and signed update manifest were independently verified before publication.
+
+- Application source: `6662e1a33b06a1c930c0c532241802a3e5e6e9a1`
+- [Source verification](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44337499696)
+- [Windows build and verification](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44337499753)
+- Installer SHA-256: `28da70801e1864c99854d71542bcbc10dfcde8aca426f52aa29ac8b7bbe4c13b`
+- Signed manifest SHA-256: `ca4fe6809df61f371e46924a57c5bfe4ef21630db45054b06190bcfa3f38c2a1`
+- Machine-readable evidence: [verification_7_6_1](verification_7_6_1/).
 
 ## Installation and recovery
 

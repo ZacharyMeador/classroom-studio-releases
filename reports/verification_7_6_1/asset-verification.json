@@ -1,0 +1,32 @@
+{
+  "version": "7.6.1",
+  "application_commit": "6662e1a33b06a1c930c0c532241802a3e5e6e9a1",
+  "windows_run": 44337499753,
+  "windows_artifact_sha256": "803688e7ecf9ab31c6b9fbdd002cc7296f99ec08dcf9537d593658f5a8954d2b",
+  "installer_sha256": "28da70801e1864c99854d71542bcbc10dfcde8aca426f52aa29ac8b7bbe4c13b",
+  "installer_size": 63364635,
+  "manifest_sha256": "ca4fe6809df61f371e46924a57c5bfe4ef21630db45054b06190bcfa3f38c2a1",
+  "manifest_size": 20829,
+  "manifest_signature_verified": true,
+  "installer_verified_against_signed_manifest": true,
+  "portable_sha256": "9266d50b2819911dc491856d30333c952d495d06c62f90b390a2ce7017398d97",
+  "portable_archive_integrity": true,
+  "portable_has_no_personal_files_or_signing_keys": true,
+  "native_reports": {
+    "install-smoke.json": {
+      "ok": true,
+      "version": "7.6.1",
+      "callback_errors": []
+    },
+    "reinstall-smoke.json": {
+      "ok": true,
+      "version": "7.6.1",
+      "callback_errors": []
+    },
+    "rollback-smoke.json": {
+      "ok": true,
+      "version": "7.6.0",
+      "callback_errors": []
+    }
+  }
+}

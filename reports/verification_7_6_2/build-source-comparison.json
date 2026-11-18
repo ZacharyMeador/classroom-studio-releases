@@ -1,0 +1,13 @@
+{
+  "published_build_commit": "c8b95cbb0b30cd2c9a498f87cefdf4adad52ae27",
+  "source_check_commit": "890fc2bdbcf67b8acf878be69e3e0bc13f6f33cc",
+  "changed_paths": [
+    "smoke_grade_columns.py"
+  ],
+  "application_files_identical": true,
+  "comparison": "Recursive Git tree blob SHA comparison; all tracked files except the named smoke-test helper are identical.",
+  "published_windows_run": 44360767517,
+  "source_run": 44361707775,
+  "additional_windows_run": 44361707768,
+  "additional_result": "7.6.2 install/reinstall passed; 7.6.1 rollback process crashed at 150% display-scaling stress with 0xC0000005."
+}

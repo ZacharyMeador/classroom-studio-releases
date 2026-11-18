@@ -77,14 +77,51 @@ work saved after the backup.
 341 unit/integration checks and static checks passed locally and in final source
 CI. All 13 column-menu GUI checks passed with no callback errors, including the
 filtered-combine regression. The dependency audit found no known vulnerabilities
-in 27 packages. Native Windows installation, reinstallation, and rollback checks
-are pending. New regressions
+in 27 packages. The packaged Windows app passed installation, reinstallation, and all 13
+column-menu GUI checks with no callback errors. Signed rollback to 7.6.1,
+forward upgrade, uninstall, and byte-for-byte preservation of the fictional
+classroom database also passed. New regressions
 cover curve mathematics, percentage-vs-raw-points behavior, zero/EX policy, scopes,
 invalid/overflow inputs, menu routing, filter independence, backup, cancellation,
 failed saves, Undo/Redo, column actions, and dialogs at 100%, 125%, and 150% scaling.
 All fixtures use fictional students. No classroom records were accessed or changed.
 
-- Application source: `890fc2bdbcf67b8acf878be69e3e0bc13f6f33cc`
+- Published Windows build: `c8b95cbb0b30cd2c9a498f87cefdf4adad52ae27`
+- Source checks: `890fc2bdbcf67b8acf878be69e3e0bc13f6f33cc`
 - [Source checks](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44361707775)
-- [Windows build](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44361707768)
+- [Windows build](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44360767517)
 - [Machine-readable evidence](verification_7_6_2/).
+
+## Build provenance and additional rollback result
+
+The published installer is the artifact from the fully successful Windows run
+44360767517. The later source-check commit changes only `smoke_grade_columns.py`: it
+waits for geometry callbacks before measuring dialog buttons and adds diagnostic
+detail. Git blob comparisons confirm every other tracked file is identical.
+The smoke helper runs only with the `--smoke-test` command-line option.
+
+A separate Windows run, 44361707768, also passed installation and reinstallation
+with all 13 column checks. Its rollback installed and opened 7.6.1, but that older
+binary then exited with native access violation 0xC0000005 while the test rapidly
+changed window scaling during the reteaching/class-dialog checks at 150%.
+The successful published-build run completed the same 7.6.1 rollback and full
+data-preservation sequence. The difference is intermittent in these runs; its
+root cause is not established, and this release does not claim to fix the older
+binary. Data compatibility passed before both rollbacks. Preserve the automatic
+recovery copy when reverting; avoid repeated scale changes in 7.6.1 if affected.
+The failed-run report and stack trace are retained in `verification_7_6_2/additional-run/`.
+
+This is a known limitation of the tested rollback target, not a guarantee that
+all future rollback runs will succeed. The new 7.6.2 column workflows passed
+on both Windows runs.
+
+## Verified release assets
+
+The downloaded Actions archive, installer, and signed update manifest were
+checked before publication. The portable archive passed its integrity check
+and contains no classroom database or signing key.
+
+| Asset | SHA-256 |
+| --- | --- |
+| ClassroomStudio-Setup-7.6.2.exe | `60c52a6f8c8db9946e5309afa165064e8fc71e44714247ddb9653e1f4964b899` |
+| update.json | `ea769c126aa8658fd6521bdeeb19c374eec850cad75268ce6f052667482946e9` |

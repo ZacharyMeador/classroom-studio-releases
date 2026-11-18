@@ -1,0 +1,23 @@
+Timeout (0:01:00)!
+Thread 0x00000dbc (most recent call first):
+  File "tkinter\__init__.py", line 1674 in _options
+  File "tkinter\__init__.py", line 1833 in _configure
+  File "tkinter\__init__.py", line 3004 in coords
+  File "customtkinter\windows\widgets\core_rendering\ctk_canvas.py", line 90 in coords
+  File "customtkinter\windows\widgets\core_rendering\draw_engine.py", line Windows fatal exception: access violation
+
+Thread 0x00000dbc (most recent call first):
+  File "tkinter\__init__.py", line 1833 in _configure
+  File "customtkinter\windows\widgets\ctk_button.py", line 196 in _draw
+  File "customtkinter\windows\widgets\ctk_button.py", line 147 in _set_scaling
+  File "customtkinter\windows\widgets\scaling\scaling_tracker.py", line 54 in update_scaling_callbacks_all
+  File "customtkinter\windows\widgets\scaling\scaling_tracker.py", line 37 in set_window_scaling
+  File "customtkinter\__init__.py", line 79 in set_window_scaling
+  File "smoke_workspace.py", line 68 in run_checks
+  File "smoke_test.py", line 63 in finish
+  File "tkinter\__init__.py", line 871 in callit
+  File "tkinter\__init__.py", line 2100 in __call__
+  File "tkinter\__init__.py", line 1611 in mainloop
+  File "customtkinter\windows\ctk_tk.py", line 165 in mainloop
+  File "smoke_test.py", line 115 in run
+  File "seating_studio_app.py", line 26 in <module>

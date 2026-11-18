@@ -1,0 +1,63 @@
+{
+  "version": "7.6.2",
+  "application_commit": "c8b95cbb0b30cd2c9a498f87cefdf4adad52ae27",
+  "windows_run": 44360767517,
+  "windows_artifact_sha256": "a7b75de8125878e7305f79e6763ce5fac4cc9d58fed001c86bd8094fb7aacc43",
+  "installer_sha256": "60c52a6f8c8db9946e5309afa165064e8fc71e44714247ddb9653e1f4964b899",
+  "installer_size": 63389994,
+  "manifest_sha256": "ea769c126aa8658fd6521bdeeb19c374eec850cad75268ce6f052667482946e9",
+  "manifest_size": 20811,
+  "manifest_signature_verified": true,
+  "installer_verified_against_signed_manifest": true,
+  "portable_sha256": "97d1e03f278141ae7919b0bd883397f418ae2dacfde429e4c8685bfb55a865b4",
+  "portable_archive_integrity": true,
+  "portable_has_no_personal_files_or_signing_keys": true,
+  "native_reports": {
+    "install-smoke.json": {
+      "ok": true,
+      "version": "7.6.2",
+      "callback_errors": [],
+      "column_checks": {
+        "scrolled_header_opens_correct_column_menu": true,
+        "keyboard_column_menu": true,
+        "cancel_curve_preserves_grades": true,
+        "failed_curve_save_preserves_grades_and_history": true,
+        "add_points_includes_missing_zeros_with_backup_and_undo": true,
+        "combine_picker_routes_explicit_columns": true,
+        "filtered_combine_reveals_saved_result": true,
+        "duplicate_is_independent_and_undoable": true,
+        "column_inclusion_and_order_persist": true,
+        "clear_column_preserves_excused_and_undo": true,
+        "export_targets_only_clicked_column": true,
+        "delete_targets_one_column_and_undo_restores_scores": true,
+        "curve_form_and_preview_at_100_125_150_percent": true
+      }
+    },
+    "reinstall-smoke.json": {
+      "ok": true,
+      "version": "7.6.2",
+      "callback_errors": [],
+      "column_checks": {
+        "scrolled_header_opens_correct_column_menu": true,
+        "keyboard_column_menu": true,
+        "cancel_curve_preserves_grades": true,
+        "failed_curve_save_preserves_grades_and_history": true,
+        "add_points_includes_missing_zeros_with_backup_and_undo": true,
+        "combine_picker_routes_explicit_columns": true,
+        "filtered_combine_reveals_saved_result": true,
+        "duplicate_is_independent_and_undoable": true,
+        "column_inclusion_and_order_persist": true,
+        "clear_column_preserves_excused_and_undo": true,
+        "export_targets_only_clicked_column": true,
+        "delete_targets_one_column_and_undo_restores_scores": true,
+        "curve_form_and_preview_at_100_125_150_percent": true
+      }
+    },
+    "rollback-smoke.json": {
+      "ok": true,
+      "version": "7.6.1",
+      "callback_errors": [],
+      "column_checks": {}
+    }
+  }
+}

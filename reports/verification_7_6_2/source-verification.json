@@ -1,0 +1,35 @@
+{
+  "version": "7.6.2",
+  "application_commit": "3b2092fa2c4960981aa88d5b516838d39904e127",
+  "source_run": 44355252550,
+  "artifact_sha256": "1d41b8123c30b6126fd500a5ec338af1b891575ee0a54d68d2856e15de13cdde",
+  "source_gui_passed": true,
+  "missing_grade_gui_checks": {
+    "blank_grid_entry_counts_as_zero": true,
+    "cancel_preserves_workspace": true,
+    "failed_save_preserves_grades_and_undo": true,
+    "repair_preserves_originals_and_creates_backup": true,
+    "repair_undo_redo_persists": true,
+    "export_contains_zero_and_earned_scores": true,
+    "weighted_course_total_includes_missing": true
+  },
+  "column_checks": {
+    "scrolled_header_opens_correct_column_menu": true,
+    "keyboard_column_menu": true,
+    "cancel_curve_preserves_grades": true,
+    "failed_curve_save_preserves_grades_and_history": true,
+    "add_points_includes_missing_zeros_with_backup_and_undo": true,
+    "combine_picker_routes_explicit_columns": true,
+    "duplicate_is_independent_and_undoable": true,
+    "column_inclusion_and_order_persist": true,
+    "clear_column_preserves_excused_and_undo": true,
+    "export_targets_only_clicked_column": true,
+    "delete_targets_one_column_and_undo_restores_scores": true,
+    "curve_form_and_preview_at_100_125_150_percent": true
+  },
+  "unit_integration_tests": 341,
+  "static_checks_passed": true,
+  "callback_errors": [],
+  "audited_packages": 27,
+  "known_vulnerabilities": 0
+}

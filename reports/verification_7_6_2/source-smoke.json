@@ -109,6 +109,7 @@
     "failed_curve_save_preserves_grades_and_history": true,
     "add_points_includes_missing_zeros_with_backup_and_undo": true,
     "combine_picker_routes_explicit_columns": true,
+    "filtered_combine_reveals_saved_result": true,
     "duplicate_is_independent_and_undoable": true,
     "column_inclusion_and_order_persist": true,
     "clear_column_preserves_excused_and_undo": true,

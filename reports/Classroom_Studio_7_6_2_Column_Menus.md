@@ -16,6 +16,9 @@ assignment link, while retaining its scores. Original assignments remain intact.
 Deletion and clearing are reviewed and recoverable. Clearing keeps EX excused;
 ordinary missing entries continue to count as zero.
 
+After combining, an assignment search is cleared so the saved result is visible.
+This also fixes an error when the new name did not match the previous search.
+
 ## Curve choices
 
 Here, x is the old point score and M is the assignment maximum.
@@ -71,16 +74,17 @@ work saved after the backup.
 
 ## Verification
 
-341 unit/integration checks and static checks passed locally and in source CI. All
-12 new source GUI checks passed with no callback errors. The dependency audit found
-no known vulnerabilities in 27 packages. Native Windows installation, reinstallation,
-and rollback checks are pending. New regressions
+341 unit/integration checks and static checks passed locally and in final source
+CI. All 13 column-menu GUI checks passed with no callback errors, including the
+filtered-combine regression. The dependency audit found no known vulnerabilities
+in 27 packages. Native Windows installation, reinstallation, and rollback checks
+are pending. New regressions
 cover curve mathematics, percentage-vs-raw-points behavior, zero/EX policy, scopes,
 invalid/overflow inputs, menu routing, filter independence, backup, cancellation,
 failed saves, Undo/Redo, column actions, and dialogs at 100%, 125%, and 150% scaling.
 All fixtures use fictional students. No classroom records were accessed or changed.
 
-- Application source: `3b2092fa2c4960981aa88d5b516838d39904e127`
-- [Source checks](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44355252550)
-- [Windows build](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44355252429)
+- Application source: `4880061aa6b41d7c313bc70f8190e31d37ea4bcd`
+- [Source checks](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44357268639)
+- [Windows build](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44357268860)
 - [Machine-readable evidence](verification_7_6_2/).

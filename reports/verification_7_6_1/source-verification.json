@@ -1,0 +1,21 @@
+{
+  "version": "7.6.1",
+  "application_commit": "6662e1a33b06a1c930c0c532241802a3e5e6e9a1",
+  "source_run": 44337499696,
+  "artifact_sha256": "daff33387b3a170712fd0973ccc3c2ea44b024a139f0b336240bbb5857a72da1",
+  "source_gui_passed": true,
+  "missing_grade_gui_checks": {
+    "blank_grid_entry_counts_as_zero": true,
+    "cancel_preserves_workspace": true,
+    "failed_save_preserves_grades_and_undo": true,
+    "repair_preserves_originals_and_creates_backup": true,
+    "repair_undo_redo_persists": true,
+    "export_contains_zero_and_earned_scores": true,
+    "weighted_course_total_includes_missing": true
+  },
+  "callback_errors": [],
+  "audited_packages": 27,
+  "known_vulnerabilities": 0,
+  "unit_integration_tests": 325,
+  "static_checks_passed": true
+}

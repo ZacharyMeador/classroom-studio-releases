@@ -1,8 +1,8 @@
 {
   "version": "7.6.2",
-  "application_commit": "4880061aa6b41d7c313bc70f8190e31d37ea4bcd",
-  "source_run": 44357268639,
-  "artifact_sha256": "56d76071cda710f9957d143160b1d73e3d92daf3799efd47edf33073e48c9d6f",
+  "application_commit": "890fc2bdbcf67b8acf878be69e3e0bc13f6f33cc",
+  "source_run": 44361707775,
+  "artifact_sha256": "912a3a9a9cdcd9a2981bb4eee8566ac42acbbd7540bf2d2ecf718176a575a957",
   "source_gui_passed": true,
   "missing_grade_gui_checks": {
     "blank_grid_entry_counts_as_zero": true,

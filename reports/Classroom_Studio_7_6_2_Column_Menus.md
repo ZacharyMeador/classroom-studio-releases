@@ -84,7 +84,7 @@ invalid/overflow inputs, menu routing, filter independence, backup, cancellation
 failed saves, Undo/Redo, column actions, and dialogs at 100%, 125%, and 150% scaling.
 All fixtures use fictional students. No classroom records were accessed or changed.
 
-- Application source: `4880061aa6b41d7c313bc70f8190e31d37ea4bcd`
-- [Source checks](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44357268639)
-- [Windows build](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44357268860)
+- Application source: `890fc2bdbcf67b8acf878be69e3e0bc13f6f33cc`
+- [Source checks](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44361707775)
+- [Windows build](https://github.com/ZacharyMeador/classroom-studio/actions/runs/44361707768)
 - [Machine-readable evidence](verification_7_6_2/).

@@ -1,0 +1,30 @@
+{
+  "version": "8.0.1",
+  "source_commit": "76b4f391fa3da15ab96c7c7e5e47cf8f3e818692",
+  "unit_tests": 417,
+  "unit_tests_passed": true,
+  "static_checks_passed": true,
+  "source_workflow": 45466778195,
+  "source_gui_passed": true,
+  "dependency_packages": 41,
+  "known_vulnerabilities": 0,
+  "protected_source_files_unchanged": [
+    "gui.py",
+    "database.py",
+    "models.py",
+    "grade_workspace.py",
+    "suite_store.py",
+    "canvas_imports.py",
+    "assessment_evidence.py"
+  ],
+  "windows_workflow": 45466778257,
+  "windows_status": "success",
+  "windows_artifact": 14956029503,
+  "source_and_packaged_ui_passed": true,
+  "window_close_protocol": true,
+  "in_app_downgrade_removed": true,
+  "automatic_update_default": true,
+  "current_canvas_course_filter": true,
+  "installer_signature_and_checksum_verified": true,
+  "install_reinstall_and_data_preservation": true
+}

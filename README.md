@@ -8,6 +8,14 @@ Open [the latest release](https://github.com/ZacharyMeador/classroom-studio-rele
 
 If you previously pinned a portable copy to the taskbar, unpin that shortcut and pin the installed app once. Future updates use the same installation path. Starting with 7.5.2, the window title shows the installed version so you can confirm which copy is open.
 
+## Classroom Studio 8.0.1
+
+This maintenance update fixes closing blocked by automatic diagnostic delivery and makes Canvas default to current courses. Filter by term or search by course code/section; switch to All courses when you deliberately want historical classes.
+
+In-app version rollback has been removed. Older installers stay archived on GitHub. Newer updates download automatically and install after you close the app, with Postpone available. Workspace backups and appearance preferences remain.
+
+See the [8.0.1 changes and verification](reports/Classroom_Studio_8_0_1_Shutdown_Canvas.md).
+
 ## Classroom Studio 8.0.0
 
 Version 8 is the regular installed update. It opens your existing classroom workspace, creates a validated recovery snapshot on its first launch, and keeps the same installed application and shortcuts. The classroom blueprint builder is preserved.
@@ -42,15 +50,13 @@ Canvas retains metadata-first processing, continuous bank-item numbering, and ea
 
 See the [7.6.0 report](reports/Classroom_Studio_7_6_0_Assessment_Evidence.md) and [import guide with the supplied-file pairings](reports/Assessment_Import_Guide.md).
 
-## New features and reverting
+## Updates and appearance
 
-In 8.0.0, choose **Settings → Startup & recovery → Classic** and restart for familiar navigation in the same workspace. You can return to Courses navigation at any time. Version 8 can also revert to the verified **7.6.2** installer using **Settings → Updates & about → Install an earlier version…** and that release's matching signed `update.json`. Saved numeric grades, attendance and blueprints remain; version 8 integration records stay stored and become accessible again after upgrading.
+**Settings → Updates & about** checks the signed public release feed. Starting with 8.0.1, newer versions download automatically and install on close; teachers can postpone or turn off automatic installation. Pending edits are saved and a recovery copy is required before updating. The app and updater do not install older versions.
 
-Earlier 7.x releases also retain their feature controls. After installing 7.5.2, the newer interface features turn on automatically. In **Settings → Experience & features**, you can choose **Use Classic**, **Revert last interface update**, or individual feature switches. Classic and Revert disable automatic feature adoption and remain in effect after restarting. **Use latest experience** turns it back on. Your classroom records and appearance choices stay in place.
+Historical releases remain in [GitHub Releases](https://github.com/ZacharyMeador/classroom-studio-releases/releases). They are an archive, not an in-app rollback option. Historical release notes describe features of those older versions.
 
-The public release channel supports the app's signed update checks. Settings → Updates & about offers Download update and Install when I close the app. New interface features activate after installation; individual appearance and feature choices remain available.
-
-**Settings → Updates & about** contains **Open version history** and **Install an earlier version…**. Download both the earlier Setup installer and its matching `update.json` from the same release. The app verifies the signature and record-format compatibility, then creates a recovery copy before installing. Version 7.6.2 can revert to the verified 7.6.1 return point; saved curves remain unless you undo them or restore a recovery copy. Version 7.6.1 can revert to the verified 7.6.0 return point. This restores the previous missing-grade policy while preserving repaired numeric combined scores. Version 7.6.0 can revert to the verified 7.5.5 return point. Imported district/tracker evidence stays on disk but its new analysis views require 7.6.0; upgrade again to view them. Earlier targets are blocked when district evidence exists. **Assessment overview first** in Experience settings can be turned off to start Canvas/manual results in the familiar scoring charts. Workspaces containing randomized question assignments cannot be opened safely by versions below 7.5.4; the app blocks that downgrade. Use a separate pre-import recovery copy if an older version is required, understanding that later work is absent from that copy.
+Navigation, colors, text size, spacing and individual feature choices remain available in Settings. These are appearance preferences within the current app. They do not replace it with an older version.
 
 ## Your data
 
@@ -63,3 +69,4 @@ The update feed is digitally signed with the key trusted by the app. The Windows
 ## Reports
 
 See the [reports folder](reports/) for release verification and links to the original audit and source evidence.
+

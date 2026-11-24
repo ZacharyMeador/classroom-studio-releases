@@ -1,0 +1,9 @@
+{
+  "app_id": "classroom-studio",
+  "channel": "stable",
+  "platform": "windows-x64",
+  "version": "8.0.0",
+  "size": 66201866,
+  "sha256": "932dbbc0442db568816b3c95b17410be6b9d1660d223432c55931a84553921af",
+  "url": "https://github.com/ZacharyMeador/classroom-studio-releases/releases/download/v8.0.0/ClassroomStudio-Setup-8.0.0.exe"
+}

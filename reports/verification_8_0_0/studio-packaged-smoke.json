@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "stage": "Classic: Support",
+  "screenshots": true,
+  "navigation": true,
+  "light_dark_scaling": true,
+  "canvas_connect_before_assessment": true,
+  "course_module_browsing": true,
+  "track_after_browse": true,
+  "blueprint_unchanged": true,
+  "stable_database_unchanged": true,
+  "classic_restart": true,
+  "callback_errors": [],
+  "question_review_mapping": true,
+  "bug_report_capture": true,
+  "cleanup_cancel_preserves_data": true,
+  "private_report_delivery": true,
+  "automatic_report_on_close": true
+}

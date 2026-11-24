@@ -1,5 +1,7 @@
 # Classroom Studio 8 — Preview 1
 
+**Historical development report.** Delivery is superseded by [the regular 8.0.0 update](Classroom_Studio_8_Update.md). Use the standard Setup installer and existing workspace.
+
 November 24, 2026.
 
 This is a separate Windows preview of the course workspace redesign. It keeps the stable application available and copies its database into an isolated preview workspace. The classroom blueprint builder and seating geometry remain unchanged.

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "existing_workspace_opened": true,
+  "blueprints_preserved": true,
+  "grades_and_attendance_preserved": true,
+  "normal_updater_enabled": true,
+  "new_navigation_default": true,
+  "upgrade_recovery_copy": true,
+  "version": "8.0.0",
+  "callback_errors": []
+}

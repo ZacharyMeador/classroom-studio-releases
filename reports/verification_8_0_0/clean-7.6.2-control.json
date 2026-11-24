@@ -1,0 +1,463 @@
+{
+  "ok": false,
+  "stage": "finished",
+  "windows_resources": [
+    {
+      "stage": "importing application",
+      "gdi_objects": 0,
+      "user_objects": 1
+    },
+    {
+      "stage": "opening empty workspace",
+      "gdi_objects": 0,
+      "user_objects": 1
+    },
+    {
+      "stage": "checking empty workspace",
+      "gdi_objects": 146,
+      "user_objects": 991
+    },
+    {
+      "stage": "checking automatic features and revert",
+      "gdi_objects": 146,
+      "user_objects": 991
+    },
+    {
+      "stage": "checking import review",
+      "gdi_objects": 146,
+      "user_objects": 1120
+    },
+    {
+      "stage": "checking shared dialogs",
+      "gdi_objects": 159,
+      "user_objects": 1184
+    },
+    {
+      "stage": "shared dialog: Already visible form",
+      "gdi_objects": 159,
+      "user_objects": 1184
+    },
+    {
+      "stage": "shared dialog: Audit review",
+      "gdi_objects": 162,
+      "user_objects": 1185
+    },
+    {
+      "stage": "shared dialog: Audit form",
+      "gdi_objects": 165,
+      "user_objects": 1186
+    },
+    {
+      "stage": "shared dialog: Review roster before saving",
+      "gdi_objects": 168,
+      "user_objects": 1187
+    },
+    {
+      "stage": "shared dialog: Audit cancel",
+      "gdi_objects": 171,
+      "user_objects": 1188
+    },
+    {
+      "stage": "shared dialog: Audit review",
+      "gdi_objects": 176,
+      "user_objects": 1189
+    },
+    {
+      "stage": "shared dialog: Audit form",
+      "gdi_objects": 179,
+      "user_objects": 1190
+    },
+    {
+      "stage": "shared dialog: Review roster before saving",
+      "gdi_objects": 182,
+      "user_objects": 1191
+    },
+    {
+      "stage": "shared dialog: Audit cancel",
+      "gdi_objects": 185,
+      "user_objects": 1192
+    },
+    {
+      "stage": "shared dialog: Audit review",
+      "gdi_objects": 190,
+      "user_objects": 1193
+    },
+    {
+      "stage": "shared dialog: Audit form",
+      "gdi_objects": 193,
+      "user_objects": 1194
+    },
+    {
+      "stage": "shared dialog: Review roster before saving",
+      "gdi_objects": 196,
+      "user_objects": 1195
+    },
+    {
+      "stage": "shared dialog: Audit cancel",
+      "gdi_objects": 199,
+      "user_objects": 1196
+    },
+    {
+      "stage": "checking populated workspace",
+      "gdi_objects": 206,
+      "user_objects": 1201
+    },
+    {
+      "stage": "creating fictional classroom",
+      "gdi_objects": 206,
+      "user_objects": 1201
+    },
+    {
+      "stage": "checking populated view: Today",
+      "gdi_objects": 212,
+      "user_objects": 1204
+    },
+    {
+      "stage": "checking populated view: Classes",
+      "gdi_objects": 212,
+      "user_objects": 1204
+    },
+    {
+      "stage": "checking populated view: Room",
+      "gdi_objects": 212,
+      "user_objects": 1252
+    },
+    {
+      "stage": "checking populated view: Constraints",
+      "gdi_objects": 212,
+      "user_objects": 1301
+    },
+    {
+      "stage": "checking populated view: Chart",
+      "gdi_objects": 212,
+      "user_objects": 1362
+    },
+    {
+      "stage": "checking populated view: History",
+      "gdi_objects": 212,
+      "user_objects": 1431
+    },
+    {
+      "stage": "checking populated view: Gradebook",
+      "gdi_objects": 212,
+      "user_objects": 1456
+    },
+    {
+      "stage": "checking populated view: Academics",
+      "gdi_objects": 212,
+      "user_objects": 1476
+    },
+    {
+      "stage": "checking populated view: Students",
+      "gdi_objects": 212,
+      "user_objects": 1499
+    },
+    {
+      "stage": "checking populated view: Reports",
+      "gdi_objects": 212,
+      "user_objects": 1538
+    },
+    {
+      "stage": "checking populated view: Hall Passes",
+      "gdi_objects": 212,
+      "user_objects": 1575
+    },
+    {
+      "stage": "checking populated view: Manage",
+      "gdi_objects": 212,
+      "user_objects": 1601
+    },
+    {
+      "stage": "checking populated view: Appearance",
+      "gdi_objects": 212,
+      "user_objects": 1601
+    },
+    {
+      "stage": "checking populated view: Updates",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Course estimates",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Attendance",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Hall trips",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Contacts and follow-ups",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Loans",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Missing work (0)",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Grade change history",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking report: Standards results",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking reteaching/class dialogs: 1",
+      "gdi_objects": 212,
+      "user_objects": 1605
+    },
+    {
+      "stage": "checking reteaching/class dialogs: 1.25",
+      "gdi_objects": 218,
+      "user_objects": 1607
+    },
+    {
+      "stage": "checking reteaching/class dialogs: 1.5",
+      "gdi_objects": 226,
+      "user_objects": 1609
+    },
+    {
+      "stage": "restoring populated workspace backup",
+      "gdi_objects": 230,
+      "user_objects": 1611
+    },
+    {
+      "stage": "checking light and dark contrast",
+      "gdi_objects": 230,
+      "user_objects": 1611
+    },
+    {
+      "stage": "checking AP assessment workflow",
+      "gdi_objects": 242,
+      "user_objects": 1619
+    },
+    {
+      "stage": "assessment dialog: Review item maxima",
+      "gdi_objects": 242,
+      "user_objects": 1631
+    },
+    {
+      "stage": "assessment dialog: Review item maxima",
+      "gdi_objects": 247,
+      "user_objects": 1632
+    },
+    {
+      "stage": "assessment dialog: Review item maxima",
+      "gdi_objects": 250,
+      "user_objects": 1633
+    },
+    {
+      "stage": "assessment dialog: AP practice settings",
+      "gdi_objects": 253,
+      "user_objects": 1634
+    },
+    {
+      "stage": "standards dialog: Choose standards framework",
+      "gdi_objects": 254,
+      "user_objects": 1635
+    },
+    {
+      "stage": "standards dialog: Choose standards framework",
+      "gdi_objects": 259,
+      "user_objects": 1636
+    },
+    {
+      "stage": "standards dialog: Choose standards framework",
+      "gdi_objects": 262,
+      "user_objects": 1637
+    },
+    {
+      "stage": "standards dialog: Choose standards framework",
+      "gdi_objects": 263,
+      "user_objects": 1638
+    },
+    {
+      "stage": "standards dialog: Standards and skills reference",
+      "gdi_objects": 266,
+      "user_objects": 1626
+    },
+    {
+      "stage": "standards dialog: Standards and skills reference",
+      "gdi_objects": 271,
+      "user_objects": 1627
+    },
+    {
+      "stage": "standards dialog: Choose standards framework",
+      "gdi_objects": 274,
+      "user_objects": 1628
+    },
+    {
+      "stage": "checking audit regression workflows",
+      "gdi_objects": 275,
+      "user_objects": 1629
+    },
+    {
+      "stage": "checking opt-in classroom workflow",
+      "gdi_objects": 277,
+      "user_objects": 1664
+    },
+    {
+      "stage": "checking attendance clicks and alphabetical enrollment",
+      "gdi_objects": 281,
+      "user_objects": 1650
+    },
+    {
+      "stage": "checking mouse wheel boundaries and native name lists",
+      "gdi_objects": 281,
+      "user_objects": 1676
+    },
+    {
+      "stage": "checking randomized question imports and grading",
+      "gdi_objects": 289,
+      "user_objects": 1679
+    },
+    {
+      "stage": "checking district imports and shared assessment analysis",
+      "gdi_objects": 306,
+      "user_objects": 1689
+    },
+    {
+      "stage": "checking missing-grade zero policy and combined repair",
+      "gdi_objects": 330,
+      "user_objects": 1726
+    },
+    {
+      "stage": "checking grade column menus and reviewed curves",
+      "gdi_objects": 330,
+      "user_objects": 1726
+    },
+    {
+      "stage": "closing application",
+      "gdi_objects": 332,
+      "user_objects": 1732
+    },
+    {
+      "stage": "finished",
+      "gdi_objects": 260,
+      "user_objects": 97
+    }
+  ],
+  "feature_defaults": {
+    "new_install_starts_with_visible_streamlined_features": true,
+    "version_and_active_experience_are_visible": true,
+    "new_analysis_selector_is_enabled_without_opt_in": true,
+    "one_click_revert_keeps_classic_after_reinitialization": true,
+    "individual_choices_persist_with_automatic_adoption_on": true,
+    "latest_classic_and_undo_controls_work": true
+  },
+  "import_review": {
+    "scales": [
+      100,
+      125,
+      150
+    ],
+    "footer_visible": true,
+    "apply_persists_grades": true,
+    "conflict_choices": true,
+    "cancel_unchanged": true,
+    "blank_scores_preserved": true
+  },
+  "dialog_scale": 1.5,
+  "shared_dialogs": {
+    "shared_dialogs_at_100_125_150_percent": true,
+    "form_and_roster_save": true,
+    "review_apply_and_cancel": true,
+    "report_close_cleanup": true,
+    "already_visible_modal": true,
+    "delayed_dialog_callbacks_cancelled": true,
+    "dialog_construction_preserves_pending_events": true
+  },
+  "appearance": {
+    "theme_transitions": 8,
+    "custom_accents": 3,
+    "buttons_checked": 4639,
+    "minimum_contrast": 4.5,
+    "gradebook_tab_states_checked": 12,
+    "tab_selectors_included": true
+  },
+  "experience": {
+    "quick_class_and_shared_roster": true,
+    "new_assignment_and_score_persist": true,
+    "analysis_has_assignment_selection": true,
+    "student_summary_and_full_record": true,
+    "general_assessment_hides_ap_fields": true,
+    "classic_and_individual_features_preserve_scores": true,
+    "invalid_edit_blocks_feature_switch": true,
+    "appearance_and_scaling_roundtrip": true,
+    "empty_analysis_clears_old_statistics": true
+  },
+  "attendance_roster": {
+    "add_student_resorts_views_and_saved_roster_without_moving_scores": true,
+    "button_cycles_and_keeps_note_and_selection": true,
+    "status_click_and_keyboard_save_immediately": true,
+    "save_failure_does_not_change_displayed_status": true,
+    "inactive_mode_and_multiselect_do_not_change_records": true,
+    "leaving_attendance_stops_click_mode": true,
+    "invalid_date_and_class_change_are_safe_and_records_reload": true,
+    "attendance_controls_fit_at_100_125_150_percent": true
+  },
+  "scrolling": {
+    "student_list_stops_at_first_and_last_name": true,
+    "attendance_list_stops_at_first_and_last_name": true,
+    "gradebook_names_and_scores_stay_aligned_at_boundaries": true,
+    "wheel_events_preserve_saved_grades": true,
+    "native_name_popdowns_at_100_125_150_percent": true,
+    "scrollable_panels_stop_at_both_boundaries": true,
+    "closed_panels_release_only_their_own_bindings": true,
+    "no_wheel_callback_errors": true
+  },
+  "randomized_assessments": {
+    "student_analysis_button_imports_status": true,
+    "question_first_confirms_points": true,
+    "unified_dialog_at_100_125_150_percent": true,
+    "resizing_dialog_has_no_callback_errors": true,
+    "cancel_is_read_only": true,
+    "student_and_question_editors_exclude_unassigned": true,
+    "unanswered_is_zero": true,
+    "analysis_and_publish_use_assigned_counts": true,
+    "preimport_backup_is_compatible": true,
+    "unsafe_old_version_rollback_blocked": true
+  },
+  "assessment_evidence": {
+    "unified_button_detects_district_reports": true,
+    "review_cancel_is_read_only": true,
+    "import_review_at_100_125_150_percent": true,
+    "resizing_has_no_callback_errors": true,
+    "district_percentages_not_editable_as_points": true,
+    "overview_and_standards_show_evidence": true,
+    "unknown_subgroups_separate": true,
+    "publishing_uses_reported_totals": true,
+    "classic_scoring_view_available": true
+  },
+  "missing_grades": {
+    "blank_grid_entry_counts_as_zero": true,
+    "cancel_preserves_workspace": true,
+    "failed_save_preserves_grades_and_undo": true,
+    "repair_preserves_originals_and_creates_backup": true,
+    "repair_undo_redo_persists": true,
+    "export_contains_zero_and_earned_scores": true,
+    "weighted_course_total_includes_missing": true
+  },
+  "callback_errors": [
+    "Traceback (most recent call last):\n  File \"smoke_test.py\", line 95, in finish\n  File \"smoke_grade_columns.py\", line 171, in run_checks\n  File \"smoke_grade_columns.py\", line 166, in exercise_curve_dialogs\nAssertionError: ['']\n"
+  ],
+  "errors": [
+    "Traceback (most recent call last):\n  File \"smoke_test.py\", line 95, in finish\n  File \"smoke_grade_columns.py\", line 171, in run_checks\n  File \"smoke_grade_columns.py\", line 166, in exercise_curve_dialogs\nAssertionError: ['']\n"
+  ]
+}
